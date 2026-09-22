@@ -1,17 +1,79 @@
-##################################################
-# Syntax Coloring Map For Generic-Qwiic-SOLDERED
-##################################################
+#######################################
+# Syntax Coloring Map For BMM350-SOLDERED
+#######################################
 
-##################################################
+#######################################
 # Datatypes (KEYWORD1)
-##################################################
+#######################################
 
-##################################################
+Soldered_BMM350	KEYWORD1
+
+#######################################
 # Methods and Functions (KEYWORD2)
-##################################################
+#######################################
 
 begin	KEYWORD2
+softReset	KEYWORD2
+setMode	KEYWORD2
+setODRPerformance	KEYWORD2
+enableAxes	KEYWORD2
+getInterruptStatus	KEYWORD2
+enableInterrupt	KEYWORD2
+configureInterrupt	KEYWORD2
+getSensorData	KEYWORD2
+performSelfTest	KEYWORD2
+magX	KEYWORD2
+magY	KEYWORD2
+magZ	KEYWORD2
+temperature	KEYWORD2
 
-##################################################
+#######################################
 # Constants (LITERAL1)
-##################################################
+#######################################
+
+BMM350_OK	LITERAL1
+BMM350_E_NULL_PTR	LITERAL1
+BMM350_E_COM_FAIL	LITERAL1
+BMM350_E_DEV_NOT_FOUND	LITERAL1
+BMM350_E_INVALID_CONFIG	LITERAL1
+BMM350_E_BAD_PAD_DRIVE	LITERAL1
+BMM350_E_RESET_UNFINISHED	LITERAL1
+BMM350_E_INVALID_INPUT	LITERAL1
+BMM350_E_SELF_TEST_INVALID_AXIS	LITERAL1
+BMM350_E_ALL_AXIS_DISABLED	LITERAL1
+BMM350_I2C_ADSEL_SET_LOW	LITERAL1
+BMM350_I2C_ADSEL_SET_HIGH	LITERAL1
+BMM350_SUSPEND_MODE	LITERAL1
+BMM350_NORMAL_MODE	LITERAL1
+BMM350_FORCED_MODE	LITERAL1
+BMM350_FORCED_MODE_FAST	LITERAL1
+BMM350_DATA_RATE_400HZ	LITERAL1
+BMM350_DATA_RATE_200HZ	LITERAL1
+BMM350_DATA_RATE_100HZ	LITERAL1
+BMM350_DATA_RATE_50HZ	LITERAL1
+BMM350_DATA_RATE_25HZ	LITERAL1
+BMM350_DATA_RATE_12_5HZ	LITERAL1
+BMM350_DATA_RATE_6_25HZ	LITERAL1
+BMM350_DATA_RATE_3_125HZ	LITERAL1
+BMM350_DATA_RATE_1_5625HZ	LITERAL1
+BMM350_NO_AVERAGING	LITERAL1
+BMM350_AVERAGING_2	LITERAL1
+BMM350_AVERAGING_4	LITERAL1
+BMM350_AVERAGING_8	LITERAL1
+BMM350_PULSED	LITERAL1
+BMM350_LATCHED	LITERAL1
+BMM350_ACTIVE_LOW	LITERAL1
+BMM350_ACTIVE_HIGH	LITERAL1
+BMM350_INTR_OPEN_DRAIN	LITERAL1
+BMM350_INTR_PUSH_PULL	LITERAL1
+BMM350_ENABLE	LITERAL1
+BMM350_DISABLE	LITERAL1
+
+#######################################
+# Structs
+#######################################
+
+bmm350_dev	LITERAL3
+bmm350_mag_temp_data	LITERAL3
+bmm350_self_test	LITERAL3
+bmm350_raw_mag_data	LITERAL3
