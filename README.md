@@ -1,13 +1,14 @@
-# NAZIV PROIZVODA Arduino library
+# Soldered BMM350 Geomagnetic Sensor breakout Arduino library
 
-[![CI](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/ci.yml)
-[![ATtiny Firmware Compile Test](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/attiny_test.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-Generic-Arduino-Library/actions/workflows/attiny_test.yml)
+[![CI](https://github.com/SolderedElectronics/Soldered-BMM350-Arduino-Library/actions/workflows/ci.yml/badge.svg?branch=dev)](https://github.com/SolderedElectronics/Soldered-BMM350-Arduino-Library/actions/workflows/ci.yml)
 
-| ![Product name](https://upload.wikimedia.org/wikipedia/commons/8/8f/Example_image.svg) |
+| ![Soldered BMM350 Geomagnetic Sensor breakout](TODO_PRODUCT_IMAGE_URL) |
 | :------------------------------------------------------------------------------------: |
-|                      [NAZIV PROIZVODA](https://www.solde.red/SKU)                      |
+|                      [Soldered BMM350 Geomagnetic Sensor breakout](https://www.solde.red/333359)                      |
 
-OPIS PROIZVODA + LINK NA [Qwiic ecosystem](https://soldered.com/collections/qwiic-ecosystem).
+<!-- TODO: product not released yet (SKU 333359), swap the image URL above and review/replace this description once the listing is live -->
+
+The BMM350 Geomagnetic Sensor breakout brings low-power, high-resolution magnetic field sensing to your projects. Built around Bosch Sensortec's BMM350, it measures magnetic field on all three axes with a resolution down to 20 nT, output data rates up to 400 Hz and a data-ready interrupt, and supports normal and forced power modes for balancing measurement speed against power consumption. This breakout only exposes the I2C interface.
 
 ### Repository Contents
 
@@ -17,7 +18,7 @@ OPIS PROIZVODA + LINK NA [Qwiic ecosystem](https://soldered.com/collections/qwii
 
 ### Hardware design
 
-You can find hardware design for this board in _NAZIV PROIZVODA_ hardware repository.
+You can find hardware design for this board in the Soldered BMM350 Geomagnetic Sensor breakout hardware repository.
 
 ### Documentation
 
@@ -25,7 +26,7 @@ Access Arduino library documentation [here](https://docs.soldered.com/).
 
 ### About Soldered
 
-<img src="https://raw.githubusercontent.com/SolderedElectronics/Soldered-Generic-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
+<img src="https://raw.githubusercontent.com/SolderedElectronics/Soldered-BMM350-Arduino-Library/dev/extras/Soldered-logo-color.png" alt="soldered-logo" width="500"/>
 
 At Soldered, we design and manufacture a wide selection of electronic products to help you turn your ideas into acts and bring you one step closer to your final project. Our products are intented for makers and crafted in-house by our experienced team in Osijek, Croatia. We believe that sharing is a crucial element for improvement and innovation, and we work hard to stay connected with all our makers regardless of their skill or experience level. Therefore, all our products are open-source. Finally, we always have your back. If you face any problem concerning either your shopping experience or your electronics project, our team will help you deal with it, offering efficient customer service and cost-free technical support anytime. Some of those might be useful for you:
 
@@ -34,9 +35,8 @@ At Soldered, we design and manufacture a wide selection of electronic products t
 - [Documentation](https://docs.soldered.com)
 
 ### Original source
-
 ​
-This library is possible thanks to original [arduino-mcp23017](https://github.com/blemasle/arduino-mcp23017) library. Thank you, blemasle.
+This library wraps Bosch Sensortec's original [BMM350_SensorAPI](https://github.com/boschsensortec/BMM350_SensorAPI) driver. Thank you, Bosch Sensortec.
 
 ### Open-source license
 
